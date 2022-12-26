@@ -1,0 +1,13 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8œêß€¿0
+g
+java:S2095("JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(±œîÄ8Ï·¬¿0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™ŸÚ•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Øª…ğ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ïå“Àûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±Ïñ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™ŸÚ•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÀËğ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÑÀËğ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(İ§—¤ûÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(óé˜´

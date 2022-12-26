@@ -1,0 +1,20 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(‡ÁøÍúÿÿÿÿ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(‰É€Ÿ
+Q	java:S125*"<This block of commented-out lines of code should be removed.(øæ•
+Q	java:S125."<This block of commented-out lines of code should be removed.(áóİ¦
+Q	java:S1254"<This block of commented-out lines of code should be removed.(äÛá
+Q	java:S1258"<This block of commented-out lines of code should be removed.(’—øÓ
+|
+java:S1128"_Remove this unused import 'com.nhnacademy.edu.springframework.messagesender.config.MainConfig'.(ÙØ ü8­Ãõ€½0
+
+java:S1128"bRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.config.ServiceConfig'.(Ï’•8¯Ãõ€½0
+Š
+java:S1128"hRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender'.(¤Ğø£şÿÿÿÿ8°Ãõ€½0
+„
+java:S1128"hRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.MessageSendService'.(¦Ü’;8±Ãõ€½0
+ƒ
+java:S1128"fRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender'.(ÙÃµ£8²Ãõ€½0
+
+java:S1128
+"_Remove this unused import 'org.springframework.context.support.ClassPathXmlApplicationContext'.(•ËÛüÿÿÿÿ8´Ãõ€½0

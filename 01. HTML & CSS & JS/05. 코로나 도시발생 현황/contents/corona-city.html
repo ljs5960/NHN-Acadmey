@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./corona-city.css">
+    <!-- JS -->
+    <script defer src="./corona-city.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Title -->
+    <header>
+        <h1>도시별 코로나19 현황</h1>
+        <div id="headerDateDiv">
+            <span id="headerDate">2022년 09월</span>
+        </div>
+    </header>
+    <!-- Table -->
+    <main id="coronaMain">
+        <table id="coronaTable">
+            <thead id="tableTHead">
+                <tr id="tableTR">
+                    <th>지역</th>
+                    <th style="background-color: #5F6388;">누적확진자</th>
+                    <th>신규확진자</th>
+                </tr>
+            </thead>
+            <tbody id="tableTBody">
+            </tbody>
+        </table>
+        <div id="pagingDiv">
+            <span id="pagingPrevious"><</span>
+            <span id="pagingNum"></span>
+            <span id="pagingNext">></span>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="#{studentViewTitle}"></title>
+</head>
+<body>
+    <span th:text="#{name} + ': '"></span><span th:text="${student.name}"></span> <br/>
+    <span th:text="#{email} + ': '"></span><span th:text="${student.email}"></span> <br/>
+    <br/>
+
+    <a th:href="@{/student/{name}/modify(name=${student.name})}">
+        <span th:text="#{modify}"></span>
+    </a>
+</body>
+</html>

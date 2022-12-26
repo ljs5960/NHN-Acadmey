@@ -1,0 +1,32 @@
+#headerDateDiv {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#coronaTable {
+    width: 100%;
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#tableTHead {
+    background-color: #767A93;
+    color: white;
+}
+
+#tableTR th, td {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#incDec {
+    color: red;
+}
+
+#pagingDiv {
+    display: flex;
+    justify-content: center;
+}

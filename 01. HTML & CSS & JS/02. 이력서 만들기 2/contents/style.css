@@ -1,0 +1,65 @@
+body {
+    background-color: beige;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+
+  header {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .my_simple_info > div:last-child {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .my_simple_name {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category {
+    font-weight: bold;
+    font-size: 20pt;
+    color: orange;
+    margin: 1rem 0;
+  }
+
+  .fa-user {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .my_simple_info_img img {
+    width: 80%;
+  }
+
+  .my_simple_info_txt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my_simple_info_txt span:first-child {
+    font-size: 20pt;
+    font-weight: bold;
+  }
+
+  .company_name > span {
+    text-decoration: underline;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+
+  footer {
+    margin: 1rem 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.5);
+  }
+
+  footer > span {
+    margin-top: 0.7rem;
+    float: right;
+  }

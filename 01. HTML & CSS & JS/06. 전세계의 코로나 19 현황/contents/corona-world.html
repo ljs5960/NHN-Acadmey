@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./corona-world.css">
+    <!-- JS -->
+    <script defer src="./corona-world.js"></script>
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Title -->
+    <header>
+        <h1>국가별 코로나19 현황</h1>
+        <div id="headerDateDiv">
+            <span id="headerDate">2022년 09월</span>
+        </div>
+        <div id="headerNationDiv">
+            <button onclick="areaPaging('아프리카');">아프리카</button>
+            <button onclick="areaPaging('오세아니아');">오세아니아</button>
+            <button onclick="areaPaging('유럽');">유럽</button>
+            <button onclick="areaPaging('아메리카');">아메리카</button>
+            <button onclick="areaPaging('중동');">중동</button>
+            <button onclick="areaPaging('아시아');">아시아</button>
+            <button onclick="areaPaging('기타');">기타</button>
+            <button onclick="areaPaging('X');">X</button>
+        </div>
+    </header>
+    <!-- Table -->
+    <main id="coronaMain">
+        <table id="coronaTable">
+            <thead id="tableTHead">
+                <tr id="tableTR">
+                    <th>국가</th>
+                    <th style="background-color: #5F6388;">누적확진자</th>
+                    <th>사망률</th>
+                </tr>
+            </thead>
+            <tbody id="tableTBody">
+            </tbody>
+        </table>
+        <!-- Chart -->
+        <div id="regions_div" style="width: 900px; height: 500px;"></div>
+    </main>
+</body>
+</html>

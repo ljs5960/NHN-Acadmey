@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="#{studentModifyTitle}"></title>
+</head>
+<body>
+    <form th:action="@{/student/{name}/modify(name=${student.name})}" method="post">
+        <span th:text="#{name} + ': '"></span><input type="text" th:field="*{student.name}" name="name"/> <br />
+        <span th:text="#{email} + ': '"></span><input type="text" th:field="*{student.email}" name="email"/> <br />
+        <span th:text="#{score} + ': '"></span><input type="text" th:field="*{student.score}" name="score"/> <br />
+        <span th:text="#{comment} + ': '"></span><textarea th:field="*{student.comment}" rows="10" cols="80" name="comment"></textarea> <br />
+        <br/>
+        <input type="submit">
+    </form>
+</body>
+</html>

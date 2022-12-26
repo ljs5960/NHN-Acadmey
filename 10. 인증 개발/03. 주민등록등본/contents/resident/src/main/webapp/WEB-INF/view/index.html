@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+</head>
+<body>
+  Hello <span sec:authentication="name"></span>
+  <a href="/logout">Logout</a>
+</body>
+</html>

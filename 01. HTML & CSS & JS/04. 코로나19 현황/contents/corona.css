@@ -1,0 +1,28 @@
+#headerDateDiv {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+/* #coronaMain {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin: 3rem;
+} */
+
+#coronaTable {
+    width: 100%;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#tableTHead {
+    background-color: green;
+    color: white;
+}
+
+#tableTR th {
+    padding: 1rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Deleted List</title>
+</head>
+<body>
+  <h1>삭제 게시판</h1>
+
+  <table>
+    <thead>
+    <tr>
+      <th>순번</th>
+      <th>제목</th>
+      <th>작성자</th>
+      <th>작성일시</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="post: ${posts}">
+      <td th:text="${post.id}"></td>
+      <td th:text="${post.title} + '(' + ${post.commentCount} + ')'"></td>
+      <td th:text="${post.userName}"></td>
+      <td th:text="${post.createdAt}"></td>
+      <td><a th:href="@{'/board/' + ${post.id}}">상세보기</a></td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>

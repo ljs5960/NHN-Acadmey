@@ -1,0 +1,61 @@
+### 주민 등록
+POST /residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "residentSerialNumber" : 1,
+  "name": "남길동1",
+  "residentRegistrationNumber" : "130914-1234561",
+  "genderCode" :  "남",
+  "birthDate" :  "1913-09-14T07:22:00",
+  "birthPlaceCode" : "자택" ,
+  "registrationBaseAddress" : "경기도 성남시 분당구 대왕판교로645번길",
+  "deathDate" : "2021-04-29T09:03:00",
+  "deathPlaceCode" : "주택",
+  "deathPlaceAddress" : "강원도 고성군 금강산로 290번길",
+  "id" : "test1",
+  "password" : "1234",
+  "email" : "test1@test.com",
+  "authority" : "ROLE_MEMBER"
+}
+
+###
+
+POST /residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+"residentSerialNumber" : 2,
+"name": "남석환",
+"residentRegistrationNumber" : "540514-1234562",
+"genderCode" :  "남",
+"birthDate" :  "1954-05-14T17:30:00",
+"birthPlaceCode" : "병원" ,
+"registrationBaseAddress" : "경기도 성남시 분당구 대왕판교로645번길",
+"id" : "test2",
+"password" : "1234",
+"email" : "test2@test.com",
+"authority" : "member"
+}
+
+###
+
+POST /residents HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "residentSerialNumber" : 3,
+  "name": "남석환",
+  "residentRegistrationNumber" : "551022-1234563",
+  "genderCode" :  "여",
+  "birthDate" :  "1955-10-22T11:15:00",
+  "birthPlaceCode" : "병원" ,
+  "registrationBaseAddress" : "서울특별시 중구 세종대로 110번길",
+  "id" : "test3",
+  "password" : "1234",
+  "email" : "test3@test.com",
+  "authority" : "member"
+}

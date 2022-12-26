@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- annotation설정을 위해 추가-->
+    <context:annotation-config/>
+
+    <!-- @Required 애너테이션 사용을 위해 추가 -->
+    <!-- deprecated -->
+<!--    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />-->
+
+    <!-- singleton :  default 라서 표기 불필요 -->
+    <!-- init-method : Bean 생성되자마자 초기화 되도록 메소드 설정 -->
+    <bean id="smsMessageSender"
+                class="com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender">
+    </bean>
+
+    <bean id="emailMessageSender"
+                class="com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender"
+                scope="prototype">
+    </bean>
+
+    <bean id="messageSendService"
+            class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService">
+<!--        <context:property-placeholder location="classpath:/message.properties" />-->
+    </bean>
+
+    <!-- @autowire 사용 전 autowire bean 제거 -->
+<!--    <bean id="messageSendService"-->
+<!--                class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService"-->
+<!--                autowire="byName">-->
+<!--    </bean>-->
+
+    <!-- 생성자 의존성 주입 -->
+<!--        <constructor-arg ref="emailMessageSender"></constructor-arg>-->
+
+    <!-- 세터 의존성 주입 -->
+<!--        <property name="messageSender" ref="smsMessageSender"></property>-->
+
+    <!-- 필드 의존성 주입 : 오토 와이어 -->
+    <!-- autowire="byName | byType" 명시 -->
+<!--    <bean id="messageSendService"-->
+<!--          class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService"-->
+<!--          autowire="byName">-->
+<!--    </bean>-->
+</beans>

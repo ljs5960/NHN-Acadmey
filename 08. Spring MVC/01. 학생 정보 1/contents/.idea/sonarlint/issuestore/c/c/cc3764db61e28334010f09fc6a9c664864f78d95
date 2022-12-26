@@ -1,0 +1,8 @@
+
+n
+java:S11927"LDefine a constant instead of duplicating this literal "studentView" 3 times.(¼…Òıÿÿÿÿ8õ÷ŠùÇ0
+^
+java:S11925"HDefine a constant instead of duplicating this literal "student" 4 times.(·ö ×
+]
+java:S1172T";Remove this unused method parameter "studentModifyRequest".(û«ƒ¾ıÿÿÿÿ8€øŠùÇ0
+j	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¬ËĞ8áÁùÇ0

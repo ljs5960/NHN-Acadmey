@@ -1,0 +1,20 @@
+
+0
+java:S1220""Move this file to a named package.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(È¯Ìûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÜÔ“
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ïå“Àûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ùµæÒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùæ¤¥úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹«òÚûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÏëÑèúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Š³Ÿ€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+Q	java:S125"<This block of commented-out lines of code should be removed.(î¯ÔÉ
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(ÑÀËğ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(·Ò¦Åıÿÿÿÿ
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(‡ìò‘øÿÿÿÿ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(‡ìò‘øÿÿÿÿ
+E
+java:S2093]"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

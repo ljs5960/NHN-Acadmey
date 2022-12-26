@@ -1,0 +1,76 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color:aliceblue
+}
+
+.toDoListHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toDoListHeader div {
+    display: flex;
+}
+
+#previousMonth {
+    margin-right: 2rem;
+}
+
+#year {
+    margin-right: 1rem;
+}
+
+#nextMonth {
+    margin-left: 2rem;
+}
+
+.calendar {
+    height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#calendarDayDiv {
+    width: 5rem;
+    height: 5rem;
+    border-right: 5px solid turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#calendarInputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+
+#toDoInput {
+    height: 3rem;
+}
+
+#calendarInputDiv span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+#toDoBtn, #deleteAllBtn {
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+}
+
+#calendarListDiv {
+    flex: 1;
+}

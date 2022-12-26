@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./corona.css">
+    <!-- JS -->
+    <script defer src="./corona.js"></script>
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Corona-Table</title>
+</head>
+<body>
+    <!-- Title -->
+    <header>
+        <h1>코로나19 현황</h1>
+        <div id="headerDateDiv">
+            <button id="previousMonth"><</button>
+            <span id="headerDate">2022년 3월</span>
+            <button id="nextMonth">></button>
+        </div>
+    </header>
+    <!-- Table -->
+    <main id="coronaMain">
+        <div>
+            <table id="coronaTable">
+                <thead id="tableTHead">
+                    <tr id="tableTR">
+                        <th>기준일</th>
+                        <th>누적(사망자수)</th>
+                        <th>누적(확진자수)</th>
+                        <!-- 공공데이터 내  update value가 누락된 경우가 있어 불가피하게 삭제 -->
+                        <!-- <th>update</th> -->
+                    </tr>
+                </thead>
+                <tbody id="tableTBody">
+                </tbody>
+            </table>
+        </div>
+        <!-- Chart -->
+        <div id="chart_div"></div>
+    </main>
+</body>
+</html>

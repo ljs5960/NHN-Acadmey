@@ -1,0 +1,9 @@
+
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÉêƒT8‚Éî¥¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(å†€´ÿÿÿÿÿ8Ë ¬¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(›Ù©¼üÿÿÿÿ8ÊÄ§Ï¼0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÑÊç8ÌÄ§Ï¼0
+K
+java:S1144")Remove this unused private "init" method.(şñÊëÿÿÿÿÿ8ÎÄ§Ï¼0
+I
+java:S1144",Remove this unused private "cleanUp" method.(¨ü§‰8ÎÄ§Ï¼0

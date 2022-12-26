@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="#{indexTitle}"></title>
+</head>
+<body>
+    <h2 th:text="#{indexName}"></h2>
+
+    <a th:href="@{/student/김학생}">http://localhost:8080/student/김학생</a> <br/>
+    <a th:href="@{/student/김학생?hideScore=yes}">http://localhost:8080/student/김학생?hideScore=yes</a> <br/>
+    <a th:href="@{/student/김학생?hideScore=no}">http://localhost:8080/student/김학생?hideScore=no</a> <br/>
+    <a th:href="@{/student/register}">http://localhost:8080/student/register</a> <br/>
+    <br/>
+
+    <a th:href="@{/?lang=en}">Change to English</a>
+    <a th:href="@{/?lang=ko}">한글로 변경하기</a>
+    <br/>
+
+    <a th:href="@{/logout}" th:text="#{logout}"></a>
+</body>
+</html>

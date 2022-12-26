@@ -1,0 +1,8 @@
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/entity/Belonging.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/service/BelongingService.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/CompanyApplication.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/entity/Employee.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/entity/Department.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/repository/BelongingRepository.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/controller/BelongingRestController.java
+/Users/limjs/Company/company/src/main/java/com/nhnacademy/test/company/service/BelongingServiceImpl.java

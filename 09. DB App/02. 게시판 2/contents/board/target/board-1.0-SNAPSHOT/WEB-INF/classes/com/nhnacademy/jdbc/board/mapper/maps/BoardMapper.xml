@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nhnacademy.jdbc.board.mapper.BoardMapper">
+    <select id="selectPosts" resultType="com.nhnacademy.jdbc.board.domain.Post">
+        SELECT p.id, p.title, p.user_id, p.created_at, count(c.post_id)
+        FROM Post as p
+                 LEFT OUTER JOIN Comment as c on p.id = c.post_id
+        WHERE is_deleted=false
+        GROUP BY p.id, c.post_id
+        ORDER BY p.id DESC
+    </select>
+
+    <select id="selectPost" resultType="com.nhnacademy.jdbc.board.domain.Post">
+        SELECT *
+        FROM Post
+        WHERE id = #{postId}
+    </select>
+
+    <insert id="insertPost" >
+        INSERT INTO Post (title, content, user_id)
+        VALUES (#{title}, #{content}, #{userName})
+    </insert>
+
+    <update id="updatePost">
+        UPDATE Post
+        SET title=#{title}, content=#{content}, modifier_id=#{modifierName}
+        WHERE id=#{id}
+    </update>
+
+    <delete id="deletePost">
+        UPDATE Post
+        SET is_deleted = true
+        WHERE id=#{id}
+    </delete>
+
+    <update id="insertComment">
+        INSERT INTO Comment (content, user_id, post_id)
+        VALUES (#{content}, #{userName}, #{postId})
+    </update>
+    
+    <select id="selectComment" resultType="com.nhnacademy.jdbc.board.domain.Comment">
+        SELECT *
+        FROM Comment
+        WHERE post_id=#{postId}
+        ORDER BY id DESC
+    </select>
+
+    <select id="selectedDeletedPosts" resultType="com.nhnacademy.jdbc.board.domain.Post">
+        SELECT p.id, p.title, p.user_id, p.created_at, count(c.post_id)
+        FROM Post as p
+                 LEFT OUTER JOIN Comment as c on p.id = c.post_id
+        WHERE is_deleted=true
+        GROUP BY p.id, c.post_id
+        ORDER BY p.id DESC
+    </select>
+
+    <update id="restorePost">
+        UPDATE Post
+        SET is_deleted = false
+        WHERE id=#{id}
+    </update>
+</mapper>

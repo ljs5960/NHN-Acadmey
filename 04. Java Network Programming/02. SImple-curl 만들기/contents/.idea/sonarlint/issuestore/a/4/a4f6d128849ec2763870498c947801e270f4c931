@@ -1,0 +1,19 @@
+
+a
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ƒ†áæ
+0
+java:S1220""Move this file to a named package.
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(üÍ°áúÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ñµó
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Œ¬}
+S	java:S106"9Replace this use of System.out or System.err by a logger.(õ¤øÿıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×ôèÚùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ‰’
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ´€Ü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ”úç
+7	java:S131""Add a default case to this switch.(ƒ†áæ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëôßÊ
+M	java:S106!"9Replace this use of System.out or System.err by a logger.(Üâœ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ÑÀËğ
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(½ë”ûıÿÿÿÿ8ÔŸƒÇ¿0
